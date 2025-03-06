@@ -1088,6 +1088,11 @@ section,
   border: 2px solid var(--accent-color);
 }
 
+.project-demo {
+  display: flex;
+  flex-direction: row;
+}
+
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
