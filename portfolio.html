@@ -8,10 +8,6 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -104,61 +100,115 @@
     </div><!-- End Page Title -->
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-          </ul><!-- End Portfolio Filters -->
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>ResuMate</h4>
-                  <p></p>
-                  <a href="" title="ResuMate" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="./assets/img/portfolio/v1-vibe-search-input.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>SpotiVibe</h4>
-                  <p>Placeholder</p>
-                  <a href="./assets/img/portfolio/v1-vibe-search-input.png" title="SpotiVibe" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>PFN Remake</h4>
-                  <p></p>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
+<section id="portfolio" class="portfolio section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center mb-5">
+        <p class="portfolio-intro">
+          I focus on frontend development currently expanding on my design eye and project management skills to bring ideas to life more smoothly. And with better UX.
+        </p>
       </div>
+    </div>
 
-    </section><!-- /Portfolio Section -->
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+      <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+        <li data-filter="*" class="filter-active">All</li>
+        <li data-filter=".filter-app">Applications</li>
+        <!-- <li data-filter=".filter-design">Design Systems</li> -->
+        <!-- <li data-filter=".filter-ux">UX Research</li> -->
+      </ul><!-- End Portfolio Filters -->
+
+      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+        <!-- ResuMate Project -->
+        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-app filter-ux">
+          <div class="portfolio-content h-100">
+            <!-- <div class="project-image-container">
+              <video poster="assets/img/portfolio/resumate-poster.jpg" class="img-fluid">
+                <source src="./assets/vid/<to-be-updated>" type="video/mp4">
+              </video>
+              <div class="video-play-overlay">
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+            </div> -->
+            <img src="./assets/img/portfolio/resumate-dash-cropped.png" class="img-fluid" alt="ResuMate application interface">
+            <div class="portfolio-info p-4">
+              <h4>ResuMate</h4>
+              <div class="tech-stack">
+                <span class="badge bg-light text-dark">React</span>
+                <span class="badge bg-light text-dark">Node.js</span>
+                <span class="badge bg-light text-dark">OpenAI</span>
+              </div>
+              <p class="project-description">
+                An AI-powered resume optimization tool that helps job seekers tailor their applications to specific job descriptions, improving their chances of passing ATS systems.
+              </p>
+              <div class="project-highlights">
+                <p><strong>Challenge:</strong> Job seekers struggle to customize resumes for each application, reducing their interview chances.</p>
+                <p><strong>Solution:</strong> Created an intuitive interface that analyzes job descriptions and suggests tailored resume improvements.</p>
+              </div>
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/resumate-dash-cropped.png" title="ResuMate" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i> Preview</a>
+                <!-- <a href="" title="View Details" class="details-link"><i class="bi bi-link-45deg"></i> Case Study</a> -->
+              </div>
+            </div>
+          </div>
+        </div><!-- End ResuMate Item -->
+
+        <!-- SpotiVibe Project -->
+        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-app">
+          <div class="portfolio-content h-100">
+            <img src="./assets/img/portfolio/HOME-mic-laptop-bg.png" class="img-fluid" alt="SpotiVibe application interface">
+            <div class="portfolio-info p-4">
+              <h4>SpotiVibe</h4>
+              <div class="tech-stack">
+                <span class="badge bg-light text-dark">React</span>
+                <span class="badge bg-light text-dark">Spotify API</span>
+                <span class="badge bg-light text-dark">CSS Animations</span>
+              </div>
+              <p class="project-description">
+                A mood-based music discovery platform that helps users find playlists matching their current emotional state or desired atmosphere.
+              </p>
+              <div class="project-highlights">
+                <p><strong>Challenge:</strong> Traditional music discovery focuses on genres rather than mood or context.</p>
+                <p><strong>Solution:</strong> Design an intuitive interface that translates emotional inputs into curated playlist recommendations.</p>
+              </div>
+              <div class="portfolio-links">
+                <a href="./assets/img/portfolio/HOME-mic-laptop-bg.png" title="SpotiVibe" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i> Preview</a>
+                <!-- <a href="portfolio-details-spotivibe.html" title="View Details" class="details-link"><i class="bi bi-link-45deg"></i> Case Study</a> -->
+              </div>
+            </div>
+          </div>
+        </div><!-- End SpotiVibe Item -->
+
+        <!-- PFN Remake Project -->
+        <!-- <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-design">
+          <div class="portfolio-content h-100">
+            <img src="./assets/img/portfolio/pfn-remake-thumbnail.jpg" class="img-fluid" alt="PFN Remake design">
+            <div class="portfolio-info p-4">
+              <h4>PFN Remake</h4>
+              <div class="tech-stack">
+                <span class="badge bg-light text-dark">React</span>
+                <span class="badge bg-light text-dark">PostgreSQL</span>
+                <span class="badge bg-light text-dark">Responsive Design</span>
+              </div>
+              <p class="project-description">
+                A recreation and moderate redesign of the Pink Friday Nails press-on nail e-commerce website
+              </p>
+              <div class="project-highlights">
+                <p><strong>Challenge:</strong> Rebuilding the e-commerce site to enhance aesthetics and usability, while maintaining brand identity and ensuring a seamless shopping experience for existing customers.</p>
+                <p><strong>Solution:</strong> Develop a refreshed, component-based UI with improved navigation, updated product displays, and streamlined checkout flow-delivering a modern look without sacrificing familiar user journeys.</p>
+              </div>              
+              <div class="portfolio-links">
+                <a href="portfolio-details-pfn.html" title="View Details" class="details-link"><i class="bi bi-link-45deg"></i> Case Study</a>
+              </div>
+            </div>
+          </div> -->
+        <!-- </div>End PFN Remake Item -->
+
+      </div><!-- End Portfolio Container -->
+    </div>
+  </div>
+</section><!-- /Portfolio Section -->
 
   </main>
 
