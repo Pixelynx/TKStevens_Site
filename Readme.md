@@ -1,0 +1,3 @@
+# TKStevens Portfolio Site
+
+I have 3 years of experience in fintech, and my journey into tech has been like a full-circle moment. I’ve had my eye on coding since high school, and after completing a technical training program, I’ve been diving deeper ever since, sharpening my skills and building user-friendly applications along the way. Now I'm on a mission to transition into roles that align more with my true passions, I’m excited to take that experience and channel it into projects that spark my curiosity and creativity. When I’m not coding, you’ll probably find me getting back into my creative groove with some art or hanging out with kittens. [Check out what I've been up to.](https://tjstevens-portfolio.netlify.app/)
